@@ -1,0 +1,11 @@
+<div class="content" role="main">
+
+  <h2>Body weight index calculator</h2>
+  <p>Here are some links to help you get started:</p>
+  <app-person-editor></app-person-editor>
+
+  <h2>History</h2>
+  <a href="#" (click)="showPersonList = !showPersonList">Show all</a> {{show}}
+  <app-person-list *ngIf="showPersonList"></app-person-list>
+
+</div>
